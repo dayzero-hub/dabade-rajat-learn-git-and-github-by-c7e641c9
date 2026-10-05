@@ -12,5 +12,5 @@ Thumbs.db
 # Not shipping the dependencies as they can be generated using npm install command
 node_modules/
 
-# Environment Variable: May content sensetive information
+# Holds API keys and passwords that must never be committed — anyone with repo access can read the history
 .env

@@ -68,4 +68,4 @@ the exercise for you.
 fixed elsewhere. It is a decision, recorded here so it does not get "fixed".)
 
 ## What is .gitignore file
-`.gitignore` file is for avoiding files to get committed and not allow to push it remote. We should aviod commit this file for Eg: .env file because it content sensetive information and we cannot delete the commit and we can we the file changes for the commit which can reveal the sensetive information, better to ignore it. 
+`.gitignore` file is for avoiding files to get committed and not allow to push it remote. We should avoid commit this file for Eg: .env file because it contain sensetive information and we cannot delete the commit and we can see the file changes for the commit which can reveal the sensetive information, better to ignore it. 
