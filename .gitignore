@@ -8,3 +8,9 @@ Thumbs.db
 
 # Ticket 4 asks you to add two more entries here, with a comment above each
 # saying why. Read the ones above first: each says WHY, not just WHAT.
+
+# Not shipping the dependencies as they can be generated using npm install command
+node_modules/
+
+# Holds API keys and passwords that must never be committed — anyone with repo access can read the history
+.env
