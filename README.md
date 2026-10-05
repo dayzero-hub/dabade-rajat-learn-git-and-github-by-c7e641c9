@@ -66,3 +66,6 @@ the exercise for you.
 
 (If you are an engineer auditing the templates: this is not the thin-template gap that DZ-382
 fixed elsewhere. It is a decision, recorded here so it does not get "fixed".)
+
+## What is .gitignore file
+`.gitignore` file is for avoiding files to get committed and not allow to push it remote. We should aviod commit this file for Eg: .env file because it content sensetive information and we cannot delete the commit and we can we the file changes for the commit which can reveal the sensetive information, better to ignore it. 
